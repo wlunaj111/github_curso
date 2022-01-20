@@ -1,0 +1,28 @@
+Creación y configuración
+
+git config --global user.name "Wilber Luna Jiménez": Establece el nombre de usuario que va a figurar como autor del commit, que podremos ver en los logs.
+git config --global user.email "wlunaj111@gmail.com": Junto con el nombre aparece en el campo author de cada commit.
+
+git config --global --list: Para visualizar nuestra configuración actual. Debemos saber que toda la configuración se guarda en el fichero .gitconfig, que se encuentra en el HOME de usuario en Linux o en C:\Users si estas en Windows.
+
+
+…or create a new repository on the command line
+echo "# github_curso" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:wlunaj111/github_curso.git
+git push -u origin main
+
+-------------------------------------------------------------------
+git remote -v 
+
+origin  git@github.com:wlunaj111/github_curso.git (fetch)
+origin  git@github.com:wlunaj111/github_curso.git (push)
+-------------------------------------------------------------------
+
+# Change the 'Origin' remote's URL
+git remote set-url Origin https://github.com/user/repo2.git
+
+haciendo cambios 
