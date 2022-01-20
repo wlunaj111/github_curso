@@ -25,4 +25,4 @@ origin  git@github.com:wlunaj111/github_curso.git (push)
 # Change the 'Origin' remote's URL
 git remote set-url Origin https://github.com/user/repo2.git
 
-haciendo cambios 
+haciendo cambios 2
